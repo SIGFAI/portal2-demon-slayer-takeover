@@ -1,0 +1,308 @@
+{
+  "id": "sigf/portal2-demon-slayer-takeover",
+  "version": "1.0.0",
+  "name": "Demon Slayer Takeover",
+  "tagline": "Bring Demon Slayer into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "portal2",
+      "role": "host",
+      "engine": "Portal 2 (Source, 32 bits) + VScript (Squirrel 2.2)",
+      "apps": {
+        "steam": "620"
+      }
+    },
+    {
+      "game": "demonslayer",
+      "role": "guest",
+      "label": "Demon Slayer",
+      "canonical": false
+    }
+  ],
+  "requires": [],
+  "install": [
+    {
+      "game": "portal2",
+      "strategy": "args",
+      "files": [
+        {
+          "src": "portal2-demon-slayer-takeover.zip",
+          "dst": "{game}/sigf_demon_slayer_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "materials/models/npcs/turret/turret_casing.vmt",
+              "sha256": "c9e0e404ef0f966250e5f30163a6e57af254da57b57efd203aed6dbdc83762b6"
+            },
+            {
+              "path": "materials/models/npcs/turret/turret_frame01.vmt",
+              "sha256": "75c223232f0aa69e2b1fa687c836f8ec45a56266da9de8cce0c2d7a2dd27715a"
+            },
+            {
+              "path": "materials/models/npcs/turret/turret_frame02.vmt",
+              "sha256": "75c223232f0aa69e2b1fa687c836f8ec45a56266da9de8cce0c2d7a2dd27715a"
+            },
+            {
+              "path": "materials/models/props/metal_box_skin001.vmt",
+              "sha256": "291744952accb634535764504b0b2e6693da54e7bd490bde7becec0d261d7541"
+            },
+            {
+              "path": "materials/models/props/metal_box_skin002.vmt",
+              "sha256": "60615ed8010d5de42a7f81e12908083decb28724a1af8136f48c0f8463cf55ed"
+            },
+            {
+              "path": "materials/models/props/metal_box_skin003.vmt",
+              "sha256": "60615ed8010d5de42a7f81e12908083decb28724a1af8136f48c0f8463cf55ed"
+            },
+            {
+              "path": "materials/models/props/metal_box_skin004.vmt",
+              "sha256": "291744952accb634535764504b0b2e6693da54e7bd490bde7becec0d261d7541"
+            },
+            {
+              "path": "materials/models/props/metal_box_skin005.vmt",
+              "sha256": "60615ed8010d5de42a7f81e12908083decb28724a1af8136f48c0f8463cf55ed"
+            },
+            {
+              "path": "materials/models/props/metal_box.vmt",
+              "sha256": "60615ed8010d5de42a7f81e12908083decb28724a1af8136f48c0f8463cf55ed"
+            },
+            {
+              "path": "materials/sigf/bamboo.vmt",
+              "sha256": "41104609872d58722e94a1752e22a32995c584ade4b34da0e707372685267210"
+            },
+            {
+              "path": "materials/sigf/bamboo.vtf",
+              "sha256": "56d81b29a8ae49ac200371271825b18a0450e8152facdd89b3a835f2f0de4448"
+            },
+            {
+              "path": "materials/sigf/demoncasing.vmt",
+              "sha256": "483aa505c8741a76c10b0c2429788706463fa8395d6c8c42238b4227e98eab89"
+            },
+            {
+              "path": "materials/sigf/demoncasing.vtf",
+              "sha256": "4812aba02114bc347291ada03a8687e46447beca20e4211c7dfe128c916e8f08"
+            },
+            {
+              "path": "materials/sigf/demonframe.vmt",
+              "sha256": "65e8f6722404bec41421fc70d6cf1da8df52a810ff57c0a0349f736a62fa9ad6"
+            },
+            {
+              "path": "materials/sigf/demonframe.vtf",
+              "sha256": "c1ba9c9880ce453fdbc8d8c2641a136842ab4644da2f6e81cd0f56f701fa5735"
+            },
+            {
+              "path": "materials/sigf/demonskin.vmt",
+              "sha256": "2b5eba76498b14d1f7b395731e4a54e7a6e0ef6eada48223700f081163444029"
+            },
+            {
+              "path": "materials/sigf/demonskin.vtf",
+              "sha256": "2f8cd01e90f63141c1cd823c2bc40f2f9f6d794a4220828efb92380e89583d1d"
+            },
+            {
+              "path": "materials/sigf/fx_eye.vmt",
+              "sha256": "3dafc15fa2f3500ef051d69139fd97cb5c3908875d6079ef7a7e811af05bc33e"
+            },
+            {
+              "path": "materials/sigf/fx_eye.vtf",
+              "sha256": "893bc9c24f081ef5199a9c1819e7f9c7cb2c73efe9b1ed6dde589f8e6d52056e"
+            },
+            {
+              "path": "materials/sigf/fx_flame.vmt",
+              "sha256": "19a511e37ed9c22fc834ce4955f075f4d578be00c6f3e62b2d4a81fcf1c553c7"
+            },
+            {
+              "path": "materials/sigf/fx_flame.vtf",
+              "sha256": "3202eebb8b642523865909446284ccf2b30878a03292ab5c900cf6f316ad0782"
+            },
+            {
+              "path": "materials/sigf/fx_thunder.vmt",
+              "sha256": "a40bfe1db183f8a34b7fc8f190b6151f92be40510b7c0b1afed40eaf195034de"
+            },
+            {
+              "path": "materials/sigf/fx_thunder.vtf",
+              "sha256": "a0a7f192ac18439050f782573c971194acc8e53f7bacd599a985fc148b3c00aa"
+            },
+            {
+              "path": "materials/sigf/fx_water.vmt",
+              "sha256": "fd5c4a03f659432673dd8edbb8439a1a41a7d215a9246944945bc5fd34e1a361"
+            },
+            {
+              "path": "materials/sigf/fx_water.vtf",
+              "sha256": "24d2221a9323b372c6de9ed9ec4dac47e5a1bfe2822e3c0ff3e0951298c5587b"
+            },
+            {
+              "path": "materials/sigf/haori.vmt",
+              "sha256": "244e692026c405917b96ed8cb52cceaa5a639119e6cb87347e112146a92baa08"
+            },
+            {
+              "path": "materials/sigf/haori.vtf",
+              "sha256": "24da608a59b5cb5714e3619377284ab49f72a7a0e9e665c90fb89599e95a0293"
+            },
+            {
+              "path": "materials/sigf/ov_flame.vmt",
+              "sha256": "dbf779e5f98bce8bc2d718542706d48870cba435819f82288f79c4c594a42296"
+            },
+            {
+              "path": "materials/sigf/ov_flame.vtf",
+              "sha256": "b1f915e81f2a4c342abf3a4eeb756ee7cf6a63d532d97e3b0ef39f8f333e1287"
+            },
+            {
+              "path": "materials/sigf/ov_thunder.vmt",
+              "sha256": "bfe32eccdc7af0fdf00bd11e794f21aad77ae07a2e9cadcfed4340d7025fa838"
+            },
+            {
+              "path": "materials/sigf/ov_thunder.vtf",
+              "sha256": "e62eda9fd46e9a9143bc69209201b78442118cd605425577e1c6bd4ccb8db18d"
+            },
+            {
+              "path": "materials/sigf/ov_water.vmt",
+              "sha256": "d39390d59a3dda5ba4823820bf119582775a13975dc50bdfd496d86292611b26"
+            },
+            {
+              "path": "materials/sigf/ov_water.vtf",
+              "sha256": "015bea9123ec04eb367b1948900379b3d7473ff910e809a2742ea5cb07184ed3"
+            },
+            {
+              "path": "scripts/vscripts/sigf_demo.nut",
+              "sha256": "050ca2d669caa4f3c7c055eda2088b38b5c30344b929c547c78cadc37be96699"
+            },
+            {
+              "path": "scripts/vscripts/sigf_mod.nut",
+              "sha256": "93c1cba7f1b5f08fbb3db24e04aa3051f5d54fe8d81ad5c22dfb9a4a07395a01"
+            },
+            {
+              "path": "sound/sigf/snd_hit.wav",
+              "sha256": "295a9e534f8c7c63ce1430b18c1da8fbd68590bb98516505211f50182e025acc"
+            },
+            {
+              "path": "sound/sigf/snd_roar.wav",
+              "sha256": "d9ca34e23271960d22d026d4f53a34c1faa0a92f2d3b8a37a0ea1c26f9a59637"
+            },
+            {
+              "path": "sound/sigf/snd_slash.wav",
+              "sha256": "0e5f6203befd9b7f026f29ca1c1b4c20c2d12b5f2ed68e19c660d741bb568c60"
+            },
+            {
+              "path": "sound/sigf/snd_taiko.wav",
+              "sha256": "2d28d0363ce0c057849772a6fbb54b1fbb8a64ba2e753444ec7f849bac0355e1"
+            },
+            {
+              "path": "sound/sigf/snd_thunder.wav",
+              "sha256": "d3e71c22cc38f3e822a8b61aa8a5e7c192b1dec98e6260036a9e874302501602"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/portal2-demon-slayer-takeover/releases/download/v1.0.0/portal2-demon-slayer-takeover.zip",
+          "sha256": "88093356956a497762ced1737a7fd5e4c138937a6878498a5837da7eb15118b5",
+          "size": 8395919
+        },
+        {
+          "src": "portal2-demon-slayer-takeover-game-kit.zip",
+          "dst": "{game}/sigf_demon_slayer_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "cfg/sigf_game.cfg",
+              "sha256": "6f932e25d0bed3c48efe681a7a4c43aab83f42233b55655c27e4f4e5b0950b5e"
+            },
+            {
+              "path": "cfg/sigf_rec.cfg",
+              "sha256": "e7815e54ae79bbb159a36435022750280ad2992ece2c2a9b570c6ff4db184cca"
+            },
+            {
+              "path": "gameinfo.txt",
+              "sha256": "509c58bbd5a477768b3e34f3a6dba6d9d6e7507715bb72606b841872e73f2539"
+            },
+            {
+              "path": "materials/sigf/kit_portal_blue.vmt",
+              "sha256": "b5b5a1f62c170477fdf0cb523b21c3da397a85b0cad470e2e8e90a61763200f4"
+            },
+            {
+              "path": "materials/sigf/kit_portal_blue.vtf",
+              "sha256": "66a14c89c2fa080aea7953d6d741f55025f339416b713aaafadd5f54d15a7ecf"
+            },
+            {
+              "path": "materials/sigf/kit_portal_orange.vmt",
+              "sha256": "d745e5b8629577b7ece072a1135cda1edbd9562c364e2641d45599b58853c45a"
+            },
+            {
+              "path": "materials/sigf/kit_portal_orange.vtf",
+              "sha256": "8b87f69add0d1849d8bdc06d5e1135531517150a0173d44bdefb7e293c7c9358"
+            },
+            {
+              "path": "resource/sigf_english.txt",
+              "sha256": "615ccaae57381f1afb12d86c7c9c62ded8b5d9ef44bb1f96c94c863383ca6d71"
+            },
+            {
+              "path": "scripts/vscripts/mapspawn.nut",
+              "sha256": "0a1139812204d68668448646e5fd2e5b931e1ddaa680c46cb132c864decd33d2"
+            },
+            {
+              "path": "scripts/vscripts/sigf_bricks.nut",
+              "sha256": "0b68c6c18b54e567d4e64c7eaa9e03f49228dfe939c6b16c2ca6fef4d04edb16"
+            },
+            {
+              "path": "scripts/vscripts/sigf_idle.nut",
+              "sha256": "058ebd51ad50186353a76e92c22edc3adfdca80e2d93cc2f5c8b4234c7e0defc"
+            },
+            {
+              "path": "scripts/vscripts/sigf_lib.nut",
+              "sha256": "05dd16f6c6c6ba2ff731f3a7c5ab86f5f772bf9f47bcf7615b95b9474ec53175"
+            },
+            {
+              "path": "scripts/vscripts/sigf_mode.nut",
+              "sha256": "b2f2524f92d28a7bcc12921baebee0ad449e36db7cd9d8ff8d6de6ff57591beb"
+            },
+            {
+              "path": "scripts/vscripts/sigf_stage.nut",
+              "sha256": "6c9e841b49c906bd8b44608d30d054d07371995dfc1b03f0a593635b174e59f4"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/portal2-demon-slayer-takeover/releases/download/v1.0.0/portal2-demon-slayer-takeover-game-kit.zip",
+          "sha256": "0d08275987e6052b6672ab76d253eae9dc369ca7830ce1fd2f93cb6fdf19eff7",
+          "size": 50766
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "portal2",
+      "args": [
+        "-game",
+        "sigf_demon_slayer_takeover"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "portal2-demon-slayer-takeover.zip",
+      "url": "https://github.com/SIGFAI/portal2-demon-slayer-takeover/releases/download/v1.0.0/portal2-demon-slayer-takeover.zip",
+      "sha256": "88093356956a497762ced1737a7fd5e4c138937a6878498a5837da7eb15118b5",
+      "size": 8395919
+    },
+    {
+      "name": "portal2-demon-slayer-takeover-game-kit.zip",
+      "url": "https://github.com/SIGFAI/portal2-demon-slayer-takeover/releases/download/v1.0.0/portal2-demon-slayer-takeover-game-kit.zip",
+      "sha256": "0d08275987e6052b6672ab76d253eae9dc369ca7830ce1fd2f93cb6fdf19eff7",
+      "size": 50766
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/portal2-demon-slayer-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-09-e2e60ea6.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "portal2",
+    "status": "draft"
+  },
+  "built_at": "2026-10-08T22:10:43.633Z"
+}
