@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "sigf/haori"
+	"$nodecal" "1"
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" "0.5"
+}

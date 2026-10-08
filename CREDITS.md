@@ -1,0 +1,7 @@
+- gen/snd_slash.wav - https://kenney.nl/assets/rpg-audio (knifeSlice.ogg) - Kenney - CC0
+- gen/snd_hit.wav - https://kenney.nl/assets/impact-sounds (impactMetal_heavy_000.ogg) - Kenney - CC0
+- gen/snd_taiko.wav - https://opengameart.org/content/tribal-drums-ammodeep1wav (ammo_deep1.wav, trimmed to 3.5s) - bart - CC-BY-SA 3.0
+- gen/snd_roar.wav - https://opengameart.org/content/cc0-deep-monster-roar (monster_roar.wav, trimmed to 3.9s) - trazzz123 - CC0
+- gen/snd_thunder.wav - https://opengameart.org/content/thunder (thunderclap_0.ogg, trimmed to 3.9s) - Jerimee - CC-BY 3.0
+- mod/materials/sigf/* (haori checker, demon skin, bamboo, ring and slash art) - made by code for this mod (Pillow/numpy), no outside source; the cube and turret skins are repaints that reuse the shading of Portal 2's own model texture layouts.
+- Models used from Portal 2 itself: metal_box (cube), turret, wood_crate002a, fakeportalring_blue/orange.

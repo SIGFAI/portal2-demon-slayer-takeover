@@ -1,0 +1,1 @@
+Copy the mod folder's contents into your Portal 2 game folder as a custom game folder (for example a folder named sigf) and launch Portal 2 with -game sigf and sv_cheats 1. Load any test chamber and watch the haori cubes fall and the demons arrive.

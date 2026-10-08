@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "sigf/demoncasing"
+	"$phong" "1"
+	"$phongexponent" "40"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[.3 .6 4]"
+}

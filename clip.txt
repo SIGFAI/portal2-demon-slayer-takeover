@@ -1,0 +1,7 @@
+Moments the clip must show (tick only if seen):
+[x] 1. Title + checkered green/black haori cubes and a wooden Nezuko crate rain into the room (preview 1).
+[x] 2. Purple demon turrets with glaring red eyes appear in front of the player (preview 2).
+[x] 3. Breathing slash (blue / yellow flash, caption of the form) cuts a demon turret: it explodes, dissolves or burns (previews at 15-17 s).
+[x] 4. Haori cube drops through a Water Breathing portal ring (blue ring, orange exit) and slashes out of the other (preview at 22 s).
+[x] 5. Player grabs the Nezuko crate and throws it at a demon; then Muzan, a giant red demon, takes a volley of slashes and burns (previews at 47-53 s).
+Weak: the crate throw sometimes misses its demon; the flash overlay is quick.
